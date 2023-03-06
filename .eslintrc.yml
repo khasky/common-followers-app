@@ -1,0 +1,42 @@
+env:
+  browser: true
+  es2021: true
+  jest: true
+extends:
+  - airbnb
+  - airbnb-typescript
+  - airbnb/hooks
+  - plugin:@typescript-eslint/eslint-recommended
+  - plugin:@typescript-eslint/recommended
+  - plugin:@typescript-eslint/recommended-requiring-type-checking
+  - prettier
+  - prettier/prettier
+overrides: []
+parser: '@typescript-eslint/parser'
+parserOptions:
+  ecmaVersion: latest
+  sourceType: module
+  project: './tsconfig.eslint.json'
+plugins:
+  - import
+  - jest
+rules:
+  'prettier/prettier': off
+  'import/no-unresolved': error
+  'no-restricted-syntax': off
+  'no-await-in-loop': off
+  'no-plusplus': off
+  'react/react-in-jsx-scope': off
+  'react/require-default-props': off
+  'import/prefer-default-export': off
+  '@typescript-eslint/no-floating-promises': off
+  '@typescript-eslint/no-unsafe-assignment': off
+  '@typescript-eslint/no-unsafe-argument': off
+  '@typescript-eslint/no-unsafe-call': off
+  '@typescript-eslint/no-unsafe-member-access': off
+  '@typescript-eslint/lines-between-class-members': off
+  '@typescript-eslint/no-misused-promises':
+  - error
+  - checksConditionals: true
+    checksVoidReturn: false
+    checksSpreads: true
