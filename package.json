@@ -1,7 +1,7 @@
 {
   "name": "common-followers-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "author": "khasky",
   "homepage": "https://khasky.github.io/common-followers-app",
   "repository": "https://github.com/khasky/common-followers-app",
