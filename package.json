@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "khasky",
+  "homepage": "https://khasky.github.io/common-followers-app",
   "repository": "https://github.com/khasky/common-followers-app",
   "dependencies": {
     "@fontsource/roboto": "^4.5.8",
